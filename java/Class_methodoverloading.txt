@@ -9,11 +9,11 @@ class Sample
     
     System.out.println("HI first function");
    
- }
+   }
    
  void test(int a, int b)
    
- {
+   {
     
     System.out.println("Hi this is second function with integer values"+a+b);
 
@@ -40,7 +40,7 @@ class Sample
 
 
 
-public class Real
+public class MAIN
 
 {
 
@@ -50,11 +50,11 @@ public class Real
     
     Sample obj=new Sample();
    
-     obj.test();
+    obj.test();
    
-     obj.test(3,4);
+    obj.test(3,4);
      
-   obj.test("abc");
+    obj.test("abc");
     
     obj.test(0.9f);
   
@@ -72,83 +72,12 @@ public class Real
 
 
 
-//output
+/*output
 HI first function
 Hi this is second function with integer values34
 abc
 0.9
 
+*/
 
 
-
-
-//change in datatype
-class Sample
-
-{
- 
-   void test(int t)
-  
-  {
-    
-    System.out.println("HI first function\n"+t);
-   
- }
-  
-  void test( int a,int b)
- 
-   {
-    
-    System.out.println("Hi this is second function with integer values\n"+a+b);
-  
-  }
-   
- void test(char a)
-   
- {
-    
-    System.out.println(a);
-    
-}
- 
-   void test(double v)
-    
-{
-   
-     System.out.println(v);
-  
-  }
-   
- 
-}
-
-
-
-public class Real
-
-{
-
-    public static void main(String args[])
- 
-   {
-      
-  Sample obj=new Sample();
-     
-   obj.test(0.9);
-  
-      obj.test(3,4);
- 
-       obj.test('k');
-
-        obj.test(0.9f);
-  
-  }
-
-}
-
-//output
-0.9
-Hi this is second function with integer values
-34
-k
-0.8999999761581421
