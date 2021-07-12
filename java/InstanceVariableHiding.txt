@@ -9,7 +9,7 @@
       Calc obj=new Calc(3,6);
 
  
-}
+   }
 
 }
 
@@ -22,7 +22,7 @@
 
     int k;
  
-   int j;
+    int j;
 
     int c;
 
@@ -33,7 +33,7 @@ Calc(int k,int j)
   
   this.k=k;
    
- this.j=j;
+  this.j=j;
   
   System.out.println(c=k+j);
 
