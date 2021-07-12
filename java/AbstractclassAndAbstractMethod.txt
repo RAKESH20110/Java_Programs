@@ -63,3 +63,4 @@ $java -Xmx128M -Xms16M MAIN
 I stole diamonds.
 Police is following you
 Hands up
+*/
