@@ -2,11 +2,11 @@ class Ofc{
          
      String empName;
     
-          float nh,perHr;
+     float nh,perHr;
     
-          int n;
+     int n;
       
-           float Salaryd;
+     float Salaryd;
 
 
 
@@ -15,53 +15,50 @@ class Ofc{
       
         {
     
-                n=2;
+                    n=2;
 
-                    nh=7;
+                    nh=7;   //number of hourse
     
-                perHr=200;
+                     perHr=200;      // pay per hour
+                     
     
          System.out.println("number of employees is "+n);
    
-   
                     System.out.println("Name of Employee "+name1);
     
-                System.out.println("Name of Employee "+name2);
+                    System.out.println("Name of Employee "+name2);
    
-                 
-        
-            
+                        
               }
     
           
-              protected  
-                       int Calculate()
+protected  
+int Calculate()
          
-              {
-       
-                   
+   {
+                  
      Salaryd=nh*perHr;
      
-                        return 0;
+    return 0;
         
     }
      
-       protected 
-                       int paySlip()
+protected 
+int paySlip()
      
-                  {
+{
      
-                        int holiday=4;
+  int holiday=4;
  
-                            float Msalary;
+  float Msalary;
     
-                         Msalary=26*Salaryd;
+  Msalary=26*Salaryd;
      
-                        for(int i=0;i<2;i++)
+  for(int i=0;i<2;i++)
     
-                         System.out.println("Salary for employee "+i+" is "+Msalary);
+  System.out.println("Salary for employee "+i+" is "+Msalary);
   
-                           return 0;
+  return 0;
     
                       
    }
@@ -71,17 +68,18 @@ class Ofc{
 
 
 
-              public class Main{
+    public class Main{
         
-            public static void main(String args[]){
+    public static void main(String args[])
+    {
  
-                         Ofc O=new Ofc("XYX","ABC");
+                  Ofc O=new Ofc("XYX","ABC");
     
-                      O.Calculate();
+                  O.Calculate();
   
-                        O.paySlip();
+                  O.paySlip();
     
-                }
+    }
      
          }
 
