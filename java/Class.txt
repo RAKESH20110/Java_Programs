@@ -39,15 +39,15 @@ public class Real
 }
 
 
-//output
+/*output
 7
 
 
+*/
 
 
 
-
-//second
+/*second Program
 class Sample
 
 {
@@ -103,6 +103,8 @@ public static void main(String args[])
 }
 
 
-//output
+output
 7
 40
+
+*/
