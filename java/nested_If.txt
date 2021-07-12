@@ -7,7 +7,7 @@ public class addString{
           /* String str="sakshi";
       String ptr="sakshi";*/
      
- int str=25;
+    int str=25;
   
     int ptr=40;
      
@@ -17,15 +17,15 @@ public class addString{
 
        System.out.println("not equals");
      
- }
+    }
    
    if(str<=ptr)
   
     System.out.println(str+ptr);
    
-  if(str<ptr)
+    if(str<ptr)
    
-  System.out.println(str-ptr);
+    System.out.println(str-ptr);
   
    else
  
