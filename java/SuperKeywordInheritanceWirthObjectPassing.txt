@@ -9,7 +9,7 @@ class superclass{
     }
     
     superclass(passingval k){
-        System.out.println(k.o);
+    System.out.println(k.o);
     }
 }
 
@@ -41,10 +41,11 @@ class passingval{
         System.out.println(o);
     }
 }
+
 public class SuperSub{
     public static void main(String arg[]){
         int i=5;
-       int j=10;
+        int j=10;
       String  name="Andrew";
       passingval p=new passingval(6);
         Subclass S=new Subclass(i,j,name);
