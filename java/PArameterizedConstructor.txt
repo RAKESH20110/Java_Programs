@@ -4,7 +4,7 @@
   
   public static void main(String []args)
    
- {
+   {
 
         Calc obj=new Calc(3,6);
 
@@ -22,9 +22,9 @@
  
    int a;
   
-  int b;
+   int b;
   
-  int c;
+   int c;
 
 
 Calc(int k,int j)
@@ -33,7 +33,7 @@ Calc(int k,int j)
  
    a=k;
    
- b=j;
+   b=j;
     
 System.out.println(c=a+b);
 
