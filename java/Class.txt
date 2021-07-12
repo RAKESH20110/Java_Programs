@@ -1,0 +1,108 @@
+class Sample
+
+{
+
+             int a,b,c;
+
+   
+       void add(int a,int b)
+  
+        {
+    
+          c=a+b;
+      
+        System.out.println(c);
+  
+        }
+    
+
+    
+}; 
+
+
+
+public class Real
+
+{
+  
+  public static void main(String args[])
+
+    {
+   
+     Sample obj=new Sample();
+   
+    
+        obj.add(3,4);
+   
+ }
+
+}
+
+
+//output
+7
+
+
+
+
+
+
+//second
+class Sample
+
+{
+            
+ int a,b,c;
+
+
+          void add(int a,int b)
+    
+      {
+   
+           c=a+b;
+      
+        System.out.println(c);
+    
+      }
+    
+      int multiply(int a,int h)
+     
+     {
+          
+    c=a*h;
+     
+         System.out.println(c);
+    
+          return 0;
+    
+      }
+    
+ 
+   
+};
+
+
+
+public class Real
+
+{
+    
+public static void main(String args[])
+   
+ {
+   
+     Sample obj=new Sample();
+ 
+      
+        obj.add(3,4);
+   
+     obj.multiply(5,8);
+  
+  }
+
+}
+
+
+//output
+7
+40
